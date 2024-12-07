@@ -152,8 +152,7 @@ def main():
         print("File loaded successfully!")
     except Exception as e:
         print(f"Error: {e}")
-    key="eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjIwMDEyNTVAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.7Ihygb9_YTlbW_9t7Kl0Ggt-7h1HUrjuDwM8t90IGB4"
-    # print(os.environ.get('AIRPROXY_TOKEN'))
+    key=os.environ.get('AIRPROXY_TOKEN'))
     visualize_data(data)
     analysis=perform_analysis(data)
     images=visualize_data(data)
