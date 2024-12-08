@@ -43,6 +43,6 @@ This dataset offers a rich tapestry of insights into what drives life satisfacti
 
 As countries navigate through economic, social, and health challenges, insights from this dataset can guide policymakers and community leaders towards fostering environments where people thrive collectively. By addressing the factors contributing to those missing data points, a more holistic and inclusive approach to happiness can be achieved. Ultimately, it reaffirms the belief that the path to a happier world is paved with knowledge, compassion, and concerted efforts to support each individual's journey towards fulfillment and joy.
 ## Visualizations
-![.\happiness/correlation_heatmap.png](.\correlation_heatmap.png)
-![.\happiness/year_distribution.png](.\happiness/year_distribution.png)
-![.\happiness/Life Ladder_distribution.png](.\happiness/Life Ladder_distribution.png)
+![.\happiness/correlation_heatmap.png](correlation_heatmap.png)
+![.\happiness/year_distribution.png](happiness/year_distribution.png)
+![.\happiness/Life Ladder_distribution.png](Life Ladder_distribution.png)
