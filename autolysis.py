@@ -40,7 +40,6 @@ def visualize_data(data):
         hist_path = f"{column}_distribution.png"
         figsize = (5.12, 5.12)
         dpi=100
-        plt.figure(figsize=figsize)
         plt.title(f"Distribution of {column}")
         plt.xlabel(column)
         plt.ylabel("Frequency")
