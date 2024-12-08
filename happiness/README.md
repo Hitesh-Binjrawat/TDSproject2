@@ -17,7 +17,7 @@ The dataset also contains quantifiable metrics allowing us to delve into factors
 #### Insights from the Analysis
 
 1. **Economic and Social Factors**: 
-   - The variable **Log GDP per Capita** often correlates strongly with the Life Ladder scores; higher economic prosperity tends to align with improved life satisfaction. However, with 28 missing values in this column, it’s critical to consider how data gaps might affect our conclusions about wealth disparities across different nations.
+   - The variable **Log GDP per Capita** often correlates strongly with the Life Ladder scores; higher economic prosperity tends to align with improved life satisfaction. However, with 28 missing values in this column, itâ€™s critical to consider how data gaps might affect our conclusions about wealth disparities across different nations.
 
 2. **Social Support**: 
    - The **Social Support** metric, with 13 missing values, reveals its pivotal role in individual well-being. Countries with robust networks of support tend to have citizens who report higher life satisfaction. This suggests a societal obligation to foster community and social ties.
@@ -43,6 +43,6 @@ This dataset offers a rich tapestry of insights into what drives life satisfacti
 
 As countries navigate through economic, social, and health challenges, insights from this dataset can guide policymakers and community leaders towards fostering environments where people thrive collectively. By addressing the factors contributing to those missing data points, a more holistic and inclusive approach to happiness can be achieved. Ultimately, it reaffirms the belief that the path to a happier world is paved with knowledge, compassion, and concerted efforts to support each individual's journey towards fulfillment and joy.
 ## Visualizations
-![.\happiness/correlation_heatmap.png](.\happiness/correlation_heatmap.png)
+![.\happiness/correlation_heatmap.png](.\correlation_heatmap.png)
 ![.\happiness/year_distribution.png](.\happiness/year_distribution.png)
 ![.\happiness/Life Ladder_distribution.png](.\happiness/Life Ladder_distribution.png)
