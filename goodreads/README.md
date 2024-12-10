@@ -36,3 +36,7 @@ From the insights derived from the missing values and visuals:
 - Consider imputing missing values where feasible or implementing a strategy to handle these gaps, particularly in `ISBN` and `language_code`, to ensure a comprehensive analysis.
 - Utilize visualizations to communicate findings effectively, especially in presentations or reports focused on book recommendations or publishing strategies.
 - Conduct further exploratory analysis to uncover additional patterns or insights within the dataset that can guide future acquisitions or marketing strategies for books.
+  ## Visualizations
+![correlation_heatmap.png](correlation_heatmap.png)
+![book_id.png](book_id.png)
+![goodreads_book_id_distribution.png](distribution.png)
