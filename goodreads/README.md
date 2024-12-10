@@ -39,4 +39,4 @@ From the insights derived from the missing values and visuals:
   ## Visualizations
 ![correlation_heatmap.png](correlation_heatmap.png)
 ![book_id.png](book_id.png)
-![goodreads_book_id_distribution.png](distribution.png)
+![book_id_distribution.png](distribution.png)
