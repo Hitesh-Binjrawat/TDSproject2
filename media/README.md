@@ -1,8 +1,6 @@
 # Dataset Story
 
 Here's a `README.md` file based on the provided data analysis details and image descriptions:
-
-```markdown
 # Dataset Analysis Report
 
 ## Overview
@@ -53,9 +51,7 @@ The yearly distribution showcases how records are spread across different years.
 The dataset holds valuable information, but attention must be directed towards addressing the missing values, especially in the `date` and `by` columns. Further analysis, as demonstrated in the visualizations, reveals important trends and relationships that can inform future exploration or model development. 
 
 By understanding these insights, we can uncover deeper narratives within the data and enhance our decision-making processes.
-```
 
-Feel free to customize the text further if there are more specific insights you'd like to include!
 
 Images analyzed:
 ![correlation_heatmap.png](./media/correlation_heatmap.png)
