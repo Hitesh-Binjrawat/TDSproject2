@@ -1,38 +1,63 @@
 # Dataset Story
 
-Based on the analysis of your dataset and the accompanying images, here are the insights:
+Here's a `README.md` file based on the provided data analysis details and image descriptions:
 
-### Dataset Overview
-- **Shape**: The dataset consists of **10,000 rows** and **23 columns**, which provides a robust sample for analysis.
-- **Columns**: The dataset includes various attributes relevant to books, such as identifiers (`book_id`, `goodreads_book_id`, `work_id`), bibliographic details (`authors`, `original_publication_year`, `title`, `language_code`), ratings data, and imagery URLs.
+```markdown
+# Dataset Analysis Report
+
+## Overview
+This report presents an analysis of a dataset consisting of 2,652 rows and 8 columns. The dataset includes the following columns:
+- **date**: The date of the record.
+- **language**: The language used.
+- **type**: The type of the entry.
+- **title**: The title of the entry.
+- **by**: The author or creator of the entry (with notable missing values).
+- **overall**: Overall rating or score.
+- **quality**: Quality rating of the entry.
+- **repeatability**: Measure of repeatability for the entries.
 
 ### Missing Values
-The analysis reveals the following key points regarding missing values:
-- **ISBN and ISBN13**: A significant number of records are missing ISBN (`700 missing`) and ISBN13 (`585 missing`). Since these identifiers are crucial for linking to external databases, this could hinder certain analyses.
-- **Original Publication Year**: There are **21 missing entries** in the `original_publication_year`, which might affect any time-based analyses or comparisons.
-- **Original Title**: The `original_title` has **585 missing values**, which may impact the context for some books, especially translations or editions.
-- **Language Code**: **1,084 missing values** in the `language_code` column suggest a lack of language identification for a considerable number of books, which may limit cross-linguistic analysis.
-- **Other Columns**: The remaining columns do not exhibit missing values, providing a solid foundation for analyzing the ratings and reviews.
+The dataset exhibits some missing values that need to be addressed:
+- `date`: 99 missing values
+- `by`: 262 missing values
+- All other columns have no missing values.
 
-### Image Insights
-1. **book_id.png**: This image likely visualizes the distribution of `book_id`, which should be explored for anomalies or patterns in book identification.
+## Insights from the Data
 
-2. **book_id_distribution.png**: This image probably illustrates how the `book_id` values are distributed across the dataset. A uniform distribution can indicate a diverse collection while skewness may suggest a focus on particular books or series.
+### Correlation Analysis
+![correlation_heatmap.png](./correlation_heatmap.png)
 
-3. **correlation_heatmap.png**: The correlation heatmap would provide insights into the relationships between various numerical attributes, such as ratings counts and average ratings. High correlations might suggest that certain ratings categories are predictive of overall book reception.
+The correlation heatmap provides insights into how various features relate to each other. A strong correlation can suggest relationships that might be useful in predicting other variables or in understanding the entries better. Analyzing these relationships can help in feature selection for any predictive models that might be developed down the line.
 
-4. **goodreads_book_id.png**: This image is expectantly focused on the `goodreads_book_id`, showcasing how these identifiers are assigned across the dataset.
+### Life Ladder Distribution
+![Life Ladder_distribution.png](./Life Ladder_distribution.png)
 
-5. **goodreads_book_id_distribution.png**: Similar to the `book_id_distribution.png`, this distribution could help in understanding how the Goodreads API has categorized these books.
+The Life Ladder distribution illustrates the ratings assigned to various entries, potentially indicating the overall sentiment or satisfaction levels captured in the dataset. Observing the distribution allows us to understand biases in the responses and the general trend among ratings over time.
 
-### Overall Analysis
-From the insights derived from the missing values and visuals:
+### Overall Rating Distribution
+![overall_distribution.png](./overall_distribution.png)
 
-- The dataset exhibits a robust number of book entries, though the missing `ISBN` and `language_code` may limit certain analyses, such as market segmentation or regional preferences.
-- The correlation analysis can uncover interesting relationships, such as whether higher average ratings correlate with increased ratings counts, which could imply that popular books tend to get rated more and with higher scores.
-- The distributions for both `book_id` and `goodreads_book_id` can help identify anomalies in identifier assignments and the extent of coverage across various attributes.
+The overall rating distribution highlights the frequency of scores across the dataset. This visual aids in identifying common ratings and possible outliers. Understanding the distribution of overall ratings is crucial for assessing the average performance of entries.
 
-### Recommendations
-- Consider imputing missing values where feasible or implementing a strategy to handle these gaps, particularly in `ISBN` and `language_code`, to ensure a comprehensive analysis.
-- Utilize visualizations to communicate findings effectively, especially in presentations or reports focused on book recommendations or publishing strategies.
-- Conduct further exploratory analysis to uncover additional patterns or insights within the dataset that can guide future acquisitions or marketing strategies for books.
+### Quality Rating Distribution
+![quality_distribution.png](./quality_distribution.png)
+
+Similarly, the quality rating distribution gives insight into how quality has been rated within the dataset. This information can help determine whether quality and overall ratings align, and point towards consistent or erratic reporting.
+
+### Yearly Distribution
+![year_distribution.png](./year_distribution.png)
+
+The yearly distribution showcases how records are spread across different years. Analyzing temporal trends can reveal patterns in data collection, shifts in language or type entries, and changes in overall or quality ratings over time. 
+
+## Conclusion
+The dataset holds valuable information, but attention must be directed towards addressing the missing values, especially in the `date` and `by` columns. Further analysis, as demonstrated in the visualizations, reveals important trends and relationships that can inform future exploration or model development. 
+
+By understanding these insights, we can uncover deeper narratives within the data and enhance our decision-making processes.
+```
+
+Feel free to customize the text further if there are more specific insights you'd like to include!
+
+Images analyzed:
+![correlation_heatmap.png](./media/correlation_heatmap.png)
+![overall_distribution.png](./media/overall_distribution.png)
+![quality_distribution.png](./media/quality_distribution.png)
