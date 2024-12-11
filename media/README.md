@@ -42,9 +42,6 @@ The overall rating distribution highlights the frequency of scores across the da
 
 Similarly, the quality rating distribution gives insight into how quality has been rated within the dataset. This information can help determine whether quality and overall ratings align, and point towards consistent or erratic reporting.
 
-### Yearly Distribution
-![year_distribution.png](./year_distribution.png)
-
 The yearly distribution showcases how records are spread across different years. Analyzing temporal trends can reveal patterns in data collection, shifts in language or type entries, and changes in overall or quality ratings over time. 
 
 ## Conclusion
