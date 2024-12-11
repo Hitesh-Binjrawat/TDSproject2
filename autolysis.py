@@ -151,8 +151,11 @@ def create_readme(analysis, api_key, folder_path):
         "model": "gpt-4o-mini",
         "messages": [
             {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt_text}
-        ]
+            {"role":"user","content":"I want to generate Readme.md file"},
+            {"role":"user","content":"First I will give data anlysis and then some png images. You have to generate a story from data in Readme.md format and attach those png images"},
+            {"role": "user", "content": prmpt},
+            {"role":"user","content":"the next prompt contains relative path of images"},
+            {"role":"user","content":' '.join(map(str, image_links))}
     }
 
     try:
