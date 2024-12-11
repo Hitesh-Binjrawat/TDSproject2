@@ -2,7 +2,7 @@
 
 Here's a `README.md` file based on the provided data analysis details and image descriptions:
 # Dataset Analysis Report
-
+---
 ## Overview
 This report presents an analysis of a dataset consisting of 2,652 rows and 8 columns. The dataset includes the following columns:
 - **date**: The date of the record.
@@ -19,7 +19,7 @@ The dataset exhibits some missing values that need to be addressed:
 - `date`: 99 missing values
 - `by`: 262 missing values
 - All other columns have no missing values.
-
+---
 ## Insights from the Data
 
 ### Correlation Analysis
@@ -51,9 +51,3 @@ The yearly distribution showcases how records are spread across different years.
 The dataset holds valuable information, but attention must be directed towards addressing the missing values, especially in the `date` and `by` columns. Further analysis, as demonstrated in the visualizations, reveals important trends and relationships that can inform future exploration or model development. 
 
 By understanding these insights, we can uncover deeper narratives within the data and enhance our decision-making processes.
-
-
-Images analyzed:
-![correlation_heatmap.png](./media/correlation_heatmap.png)
-![overall_distribution.png](./media/overall_distribution.png)
-![quality_distribution.png](./media/quality_distribution.png)
