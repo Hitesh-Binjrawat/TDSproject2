@@ -155,8 +155,7 @@ def create_readme(analysis, api_key, folder_path):
             {"role":"user","content":"I will give data anlysis in next prmpt you have to narrate a data story"},
             {"role": "user", "content": prompt_text},
             {"role":"user","content":"the next prompt contains relative path of images"},
-            {"role":"user","content":' '.join(map(str, image_links))},
-             {"detail":"low"}
+            {"role":"user","content":' '.join(map(str, image_links))}
         ]
     }
 
